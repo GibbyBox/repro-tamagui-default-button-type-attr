@@ -28,7 +28,7 @@ export default function TabOneScreen() {
       </Form>
 
       <Form gap="$2" onSubmit={() => alert("Form submitted event")}>
-        <H3>Fixed Form</H3>
+        <H3>Expected Behavior</H3>
         <Input
           placeholder="Password"
           secureTextEntry={!showPassword}
